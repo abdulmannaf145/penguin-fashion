@@ -53,3 +53,32 @@ header
 .contact-item {
     border-radius: 20px;
 }
+
+/* responsive css */
+@media (max-width: 688px) {
+    .container
+    {
+        padding: 5px 20px;
+    }
+    .hero_left h1 
+    {
+        font-size: 29px;
+        width: 90%;
+    }
+    .hero_btn 
+    {
+        padding: 5px 10px;
+    }
+    .contact-item 
+    {
+        text-align: center;
+	    flex-direction: column;
+	    align-items: center;
+    }
+}
+@media (max-width:300px) {
+    .hero_btn 
+    {
+        font-size: 11px;
+    }    
+}
